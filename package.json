@@ -1,7 +1,7 @@
 {
   "name": "Postlog",
   "description": "A library for sending console logs over XHR for server-side processing.",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "author": "Albin Larsson",
   "license": "MIT",
   "repository": {
