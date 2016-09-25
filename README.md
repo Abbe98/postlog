@@ -12,7 +12,7 @@ npm install postlog
 
 ### Basic
 
-```
+```javascript
 var post = new Postlog('http://example.com/endpoint');
 
 post.log('message to be logged to the console and server!');
@@ -24,7 +24,7 @@ The data is posted with a JSON body containing your logged data.
 
 The following example would post the JSON encoded the entire object and send it as the body. This can be very useful when needing to identify a user or verifying the request with a token. 
 
-```
+```javascript
 var post = new Postlog('http://example.com/endpoint');
 
 var object = {
@@ -40,9 +40,9 @@ post.log(object);
 
 ### Callbacks
 
-Both `log()` and `send` supports optional callback arguments:
+Both `log()` and `send()` supports optional callback arguments:
 
-```
+```javascript
 var post = new Postlog('http://example.com/endpoint');
 
 post.log('message', function() {
