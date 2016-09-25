@@ -1,0 +1,20 @@
+{
+  "name": "Postlog",
+  "description": "A library for sending console logs over XHR for server-side processing.",
+  "version": "0.1.0",
+  "author": "Albin Larsson",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:abbe98/postlog.git"
+  },
+  "keywords": [
+    "console",
+    "logs",
+    "logging"
+  ],
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^1.5.3"
+  }
+}
